@@ -1,0 +1,40 @@
+name: ecovision
+description: EcoVision - Aplicativo de Realidade Aumentada para Educação Ambiental em Maringá
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ícones do Material Design
+  cupertino_icons: ^1.0.2
+
+  # Requisições HTTP para a API
+  http: ^1.1.0
+
+  # Armazenamento local (para salvar dados do usuário logado)
+  shared_preferences: ^2.2.0
+
+  # Animações extras
+  flutter_animate: ^4.2.0
+
+  # Plugin de câmera (base para o scanner AR simulado)
+  camera: ^0.10.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Configuração de assets
+  assets:
+    - assets/images/
